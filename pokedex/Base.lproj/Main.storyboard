@@ -38,7 +38,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Gd9-fM-r89" customClass="PokeCell" customModule="pokedex" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokeCell" id="Gd9-fM-r89" customClass="PokeCell" customModule="pokedex" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -85,6 +85,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="i0M-Vd-U08" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" constant="20" id="0jW-iG-dsS"/>
                             <constraint firstItem="ELz-rb-mw1" firstAttribute="top" secondItem="brY-vB-Reg" secondAttribute="bottom" id="2dK-Ic-vi0"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i0M-Vd-U08" secondAttribute="bottom" constant="20" id="4es-y9-TtP"/>
                             <constraint firstAttribute="trailing" secondItem="fLN-Gs-EZ6" secondAttribute="trailing" id="8vv-38-RUe"/>
@@ -92,20 +93,27 @@
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" constant="20" id="Cb4-JC-6lh"/>
                             <constraint firstAttribute="trailing" secondItem="brY-vB-Reg" secondAttribute="trailing" id="Cre-rI-DNb"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i0M-Vd-U08" secondAttribute="bottom" constant="20" id="Ghv-uk-ptc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i0M-Vd-U08" secondAttribute="bottom" constant="20" id="JDu-U6-ZNt"/>
                             <constraint firstItem="fLN-Gs-EZ6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Kcy-V3-BiT"/>
+                            <constraint firstItem="ELz-rb-mw1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="L8L-Yo-nc7"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" constant="20" id="Nuy-3h-Tbv"/>
                             <constraint firstItem="brY-vB-Reg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Qj5-4h-hcD"/>
+                            <constraint firstAttribute="trailing" secondItem="ELz-rb-mw1" secondAttribute="trailing" id="VkC-dS-lrm"/>
+                            <constraint firstAttribute="trailing" secondItem="i0M-Vd-U08" secondAttribute="trailing" constant="20" id="WWs-3G-iar"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="XJF-sj-cDE"/>
                             <constraint firstItem="brY-vB-Reg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Y6q-F7-eVt"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="bJo-rb-fWx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ELz-rb-mw1" secondAttribute="bottom" id="bpd-PC-71J"/>
+                            <constraint firstItem="ELz-rb-mw1" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" id="cRd-ys-5Ne"/>
                             <constraint firstAttribute="trailing" secondItem="i0M-Vd-U08" secondAttribute="trailing" constant="20" id="dyD-6r-AqD"/>
                             <constraint firstItem="ELz-rb-mw1" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" id="iKO-2r-v7e"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" constant="20" id="kO5-d1-hSF"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="ELz-rb-mw1" secondAttribute="bottom" id="kd3-v7-PTG"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="i0M-Vd-U08" secondAttribute="bottom" constant="20" id="kz9-bk-WeS"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="lka-pc-s5o"/>
                             <constraint firstAttribute="trailing" secondItem="ELz-rb-mw1" secondAttribute="trailing" id="mds-EJ-bNh"/>
                             <constraint firstItem="fLN-Gs-EZ6" firstAttribute="top" secondItem="brY-vB-Reg" secondAttribute="bottom" id="oF5-Rp-OXX"/>
+                            <constraint firstItem="i0M-Vd-U08" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="pFb-9l-GT6"/>
                             <constraint firstAttribute="trailing" secondItem="i0M-Vd-U08" secondAttribute="trailing" id="pHp-6t-hTh"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" id="rKS-Mc-tS7"/>
                             <constraint firstItem="i0M-Vd-U08" firstAttribute="top" secondItem="fLN-Gs-EZ6" secondAttribute="bottom" constant="20" id="rwZ-vZ-82G"/>
@@ -115,9 +123,15 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="2dK-Ic-vi0"/>
+                                <exclude reference="BEn-2J-LJO"/>
+                                <exclude reference="iKO-2r-v7e"/>
+                                <exclude reference="mds-EJ-bNh"/>
                                 <exclude reference="Cb4-JC-6lh"/>
                                 <exclude reference="Nuy-3h-Tbv"/>
                                 <exclude reference="XJF-sj-cDE"/>
+                                <exclude reference="bJo-rb-fWx"/>
+                                <exclude reference="dyD-6r-AqD"/>
+                                <exclude reference="kO5-d1-hSF"/>
                                 <exclude reference="lka-pc-s5o"/>
                                 <exclude reference="pHp-6t-hTh"/>
                                 <exclude reference="rKS-Mc-tS7"/>
@@ -126,9 +140,14 @@
                                 <exclude reference="tuE-KS-gh3"/>
                                 <exclude reference="4es-y9-TtP"/>
                                 <exclude reference="Ghv-uk-ptc"/>
+                                <exclude reference="bpd-PC-71J"/>
+                                <exclude reference="kz9-bk-WeS"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="collection" destination="i0M-Vd-U08" id="pwD-fU-UFe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

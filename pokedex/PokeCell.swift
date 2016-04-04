@@ -15,6 +15,13 @@ class PokeCell: UICollectionViewCell {
   
   var pokemon: Pokemon! //Pokemon class created in model
   
+  
+  required init?(coder aDecoder: NSCoder) {
+    super.init(coder: aDecoder)
+    
+    layer.cornerRadius = 5.0
+  }
+  
   func configureCell(pokemon: Pokemon) { //pass in a Pokemon object to configure the cell
     self.pokemon = pokemon
     
