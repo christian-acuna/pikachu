@@ -26,4 +26,6 @@ class Pokemon {
     self._name = name
     self._pokedexId = pokedexId
   }
+  
+  
 }
