@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B063F971CB37CCB00FB1E55 /* Pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4B063F961CB37CCB00FB1E55 /* Pokemon.ttf */; };
+		4B063F991CB3805900FB1E55 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4B063F981CB3805900FB1E55 /* music.mp3 */; };
 		4B8986331CB205A700CF57F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8986321CB205A700CF57F6 /* AppDelegate.swift */; };
 		4B8986351CB205A700CF57F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8986341CB205A700CF57F6 /* ViewController.swift */; };
 		4B8986381CB205A700CF57F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8986361CB205A700CF57F6 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B063F961CB37CCB00FB1E55 /* Pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pokemon.ttf; sourceTree = "<group>"; };
+		4B063F981CB3805900FB1E55 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		4B89862F1CB205A700CF57F6 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B8986321CB205A700CF57F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B8986341CB205A700CF57F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 		4B8986501CB21D0100CF57F6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4B063F981CB3805900FB1E55 /* music.mp3 */,
+				4B063F961CB37CCB00FB1E55 /* Pokemon.ttf */,
 				4B8986441CB2076F00CF57F6 /* pokemon.csv */,
 			);
 			name = Resources;
@@ -176,6 +182,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B89863D1CB205A700CF57F6 /* LaunchScreen.storyboard in Resources */,
+				4B063F971CB37CCB00FB1E55 /* Pokemon.ttf in Resources */,
+				4B063F991CB3805900FB1E55 /* music.mp3 in Resources */,
 				4B89863A1CB205A700CF57F6 /* Assets.xcassets in Resources */,
 				4B8986451CB2076F00CF57F6 /* pokemon.csv in Resources */,
 				4B8986381CB205A700CF57F6 /* Main.storyboard in Resources */,
@@ -345,6 +353,7 @@
 				4B8986431CB205A700CF57F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
