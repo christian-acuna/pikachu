@@ -475,6 +475,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="baseAttack" destination="u7T-zi-mSA" id="kF6-ap-pQx"/>
                         <outlet property="currentEvoImg" destination="xRS-h9-xLJ" id="R8N-W8-350"/>
                         <outlet property="defenseLbl" destination="xET-Yl-1Yk" id="7Cx-vU-dI1"/>
                         <outlet property="descriptionLbl" destination="bCT-h6-suJ" id="N3a-Pj-pyv"/>
@@ -485,6 +486,7 @@
                         <outlet property="nextEvoImg" destination="jEK-hK-iYw" id="aj8-gE-ld8"/>
                         <outlet property="pokedexLbl" destination="64w-tS-yHf" id="phz-Gf-BW4"/>
                         <outlet property="typeLbl" destination="m52-MG-JZc" id="M4J-xn-3rq"/>
+                        <outlet property="weightLbl" destination="ThP-lu-NBl" id="Mcv-C2-nJf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XSN-zc-WqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
